@@ -4,8 +4,6 @@ Before thinking about the class name, take your time and choose a good name for 
 Use meaningful names for your Ids and Classes. They should be short, descriptive and represent only one concept. It’ll make your HTML clearer and the styling process easier.
 Don’t you think it’d be better if you named your class “wrapper” instead of “wpr”?
 
-<img src="https://miro.medium.com/max/640/1*RrFFM_EwTp3RVKUFuViqFw.gif" />
-
 ```html
 <!-- DO NOT DO THIS !! -->
 <h2 class="CardTitle"></h2>
@@ -15,6 +13,8 @@ Don’t you think it’d be better if you named your class “wrapper” instead
 <!-- DO THIS -->
 <h2 class="card-title"></h2>
 ```
+
+<img src="https://miro.medium.com/max/640/1*RrFFM_EwTp3RVKUFuViqFw.gif" />
 
 **Try BEM**
 
@@ -108,7 +108,7 @@ Better HTML Code:
 </footer>
 <!-- [END] Footer -->
 ```
-
+<br /><br />
 Bad HTML Code:
 ```html
 <div id="content">
@@ -141,3 +141,20 @@ Better HTML Code:
 ```
 # !important
 Avoid using too many !important
+
+All !important does is increase specificity. To avoid using !important, all you need to do is increase specificity.
+
+for example:
+```html
+<div class="card">
+	...
+</div>
+```
+```css
+/* weak */
+div{color:red;}
+/* strong */
+.card{color:red;}
+/* much stronger */
+div.card{color:red;}
+```
