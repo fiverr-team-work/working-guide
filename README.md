@@ -1,7 +1,11 @@
 # Naming Classes
 
 Before thinking about the class name, take your time and choose a good name for an HTML element.
-Use meaningful names for your Ids and Classes. They should be short, descriptive and represent only one concept. It’ll make your HTML clearer and the styling process easier.
+
+Use meaningful names for your Ids and Classes. They should be short, descriptive and represent only one concept.
+
+It’ll make your HTML clearer and the styling process easier.
+
 Don’t you think it’d be better if you named your class “wrapper” instead of “wpr”?
 
 ```html
@@ -50,7 +54,9 @@ I already made a <a href="https://github.com/0x1e0000/sass-structure.git">reposi
 
 # Comments
 Your code won’t be easier to understand just because you add comments everywhere.
+
 You can use them to make things a bit more clear (for example, to show you’re closing a div after many lines of code).
+
 But don’t comment things that are obvious or code that is badly written.
 
 **“Don’t comment bad code. Rewrite it.” — Brian W. Kernighan**
@@ -68,7 +74,9 @@ Every clickable icon should be an SVG element, so we can give it a style with CS
 
 # Clean Code
 Writing clean code should be one of your biggest concerns.
+
 You don’t want to mess up the foundations of the site. It’s just wrong and embarrassing.
+
 Your code reflects the kind of developer you are
 
 **“Clean code is a code that is written by someone who cares” — Michael Feathers**
@@ -150,6 +158,7 @@ Avoid using too many !important.
 
 All !important does is increase specificity.
 To avoid using !important, all you need to do is increase specificity.
+
 for example:
 ```html
 <div class="card">
