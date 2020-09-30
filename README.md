@@ -165,4 +165,4 @@ div{
 	color:yellow;
 }
 ```
-hat color you think the text it will be ?
+what color you think the text it will be ?
