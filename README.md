@@ -40,7 +40,8 @@ It’s one of the most commonly used conventions by now.
 </div>
 ```
 # Use Whitespace
-Many people write smashed-together code without using white spaces. The result? It’s like reading a book with no punctuation or paragraphs.
+Many people write smashed-together code without using white spaces.
+The result? It’s like reading a book with no punctuation or paragraphs.
 leave an empty line between every big section
 
 # Sass Architecture Structure
@@ -48,8 +49,12 @@ leave an empty line between every big section
 I already made a <a href="https://github.com/0x1e0000/sass-structure.git">repository</a> for this
 
 # Comments
-Your code won’t be easier to understand just because you add comments everywhere. You can use them to make things a bit more clear (for example, to show you’re closing a div after many lines of code). But don’t comment things that are obvious or code that is badly written.
+Your code won’t be easier to understand just because you add comments everywhere.
+You can use them to make things a bit more clear (for example, to show you’re closing a div after many lines of code).
+But don’t comment things that are obvious or code that is badly written.
+
 **“Don’t comment bad code. Rewrite it.” — Brian W. Kernighan**
+
 ```html
 <!-- [BEGIN] About Us -->
 <section class="about-us">
@@ -62,7 +67,8 @@ Your code won’t be easier to understand just because you add comments everywhe
 Every clickable icon should be an SVG element, so we can give it a style with CSS whenever we hover or click over it.
 
 # Clean Code
-Writing clean code should be one of your biggest concerns. You don’t want to mess up the foundations of the site. It’s just wrong and embarrassing.
+Writing clean code should be one of your biggest concerns.
+You don’t want to mess up the foundations of the site. It’s just wrong and embarrassing.
 Your code reflects the kind of developer you are
 
 **“Clean code is a code that is written by someone who cares” — Michael Feathers**
@@ -141,20 +147,22 @@ Better HTML Code:
 ```
 # !important
 Avoid using too many !important
-
 All !important does is increase specificity. To avoid using !important, all you need to do is increase specificity.
-
 for example:
 ```html
 <div class="card">
-	...
+	Text here
 </div>
 ```
 ```css
-/* weak */
-div{color:red;}
-/* strong */
-.card{color:red;}
-/* much stronger */
-div.card{color:red;}
+div.card{
+	color:red;
+}
+div{
+	color:green;
+}
+.card{
+	color:yellow;
+}
 ```
+hat color you think the text it will be ?
