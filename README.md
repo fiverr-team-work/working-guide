@@ -146,9 +146,9 @@ Better HTML Code:
 <!-- [BEGIN] Content -->
 ```
 # !important
-Avoid using too many !important
-
-All !important does is increase specificity. To avoid using !important, all you need to do is increase specificity.
+Avoid using too many !important.
+All !important does is increase specificity.
+To avoid using !important, all you need to do is increase specificity.
 for example:
 ```html
 <div class="card">
