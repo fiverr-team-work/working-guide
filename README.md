@@ -39,7 +39,16 @@ It’s one of the most commonly used conventions by now.
 I already made a <a href="https://github.com/0x1e0000/sass-structure.git">repository</a> for this
 
 # Comments
-
+every HTML section should starts and ends with a comment.
+such as:
+```html
+<!-- [BEGIN] Footer -->
+<footer>
+	...
+</footer>
+<!-- [END] Footer -->
+```
+it helps others to easly read your HTML code
 
 # Icons
 
@@ -47,4 +56,4 @@ I already made a <a href="https://github.com/0x1e0000/sass-structure.git">reposi
 # Clean Code
 
 
-# Avoid !important
+# !important
