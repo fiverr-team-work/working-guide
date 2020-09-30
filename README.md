@@ -1,11 +1,8 @@
-# Naming Classes
+## 1. Naming Classes
 
-Before thinking about the class name, take your time and choose a good name for an HTML element.
-
-Use meaningful names for your Ids and Classes. They should be short, descriptive and represent only one concept.
-
+Before thinking about the class name, `take your time` and choose a good name for an HTML element.
+Use meaningful names for your Ids and Classes. They should be **short**, **descriptive** and represent only one concept.
 It’ll make your HTML clearer and the styling process easier.
-
 Don’t you think it’d be better if you named your class “wrapper” instead of “wpr”?
 
 ```html
@@ -43,23 +40,27 @@ It’s one of the most commonly used conventions by now.
 	</div>
 </div>
 ```
-# Use Whitespace
+
+
+## 2. Use Whitespace
+
 Many people write smashed-together code without using white spaces.
 The result? It’s like reading a book with no punctuation or paragraphs.
-leave an empty line between every big section
+leave an `empty line` between every big section
 
-# Sass Architecture Structure
+
+## 3. Sass Architecture Structure
 
 I already made a <a href="https://github.com/0x1e0000/sass-structure.git">repository</a> for this
 
-# Comments
+
+## 4. Comments
+
 Your code won’t be easier to understand just because you add comments everywhere.
-
 You can use them to make things a bit more clear (for example, to show you’re closing a div after many lines of code).
-
 But don’t comment things that are obvious or code that is badly written.
 
-**“Don’t comment bad code. Rewrite it.” — Brian W. Kernighan**
+> “Don’t comment bad code. Rewrite it.” — **Brian W. Kernighan**
 
 ```html
 <!-- [BEGIN] About Us -->
@@ -69,17 +70,18 @@ But don’t comment things that are obvious or code that is badly written.
 <!-- [END] About Us -->
 ```
 
-# Icons
+## 5. Icons
+
 Every clickable icon should be an SVG element, so we can give it a style with CSS whenever we hover or click over it.
 
-# Clean Code
+
+## 6. Clean Code
+
 Writing clean code should be one of your biggest concerns.
-
 You don’t want to mess up the foundations of the site. It’s just wrong and embarrassing.
-
 Your code reflects the kind of developer you are
 
-**“Clean code is a code that is written by someone who cares” — Michael Feathers**
+> “Clean code is a code that is written by someone who cares” — **Michael Feathers**
 
 
 Bad HTML Code:
@@ -153,8 +155,11 @@ Better HTML Code:
 </secton>
 <!-- [BEGIN] Content -->
 ```
-# !important
-Avoid using too many !important.
+
+
+## 7. !important
+
+Avoid using too many `!important`.
 
 All !important does is increase specificity.
 To avoid using !important, all you need to do is increase specificity.
