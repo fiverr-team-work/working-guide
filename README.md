@@ -181,4 +181,4 @@ div{
 	color:yellow;
 }
 ```
-**What color you think the text it will be ?**
+**What color you think the text will be ?**
